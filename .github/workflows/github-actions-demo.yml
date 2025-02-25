@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest 
     steps:  # 开始写多个步骤
       - run: echo "hello,github actions!"
+      - run: echo "你好，Github 工作流！"
       - uses: actions/checkout@v4 # 拷贝仓库到运行容器内
       - uses: actions/setup-node@v4  # 使用Node程序
         with:
