@@ -19,5 +19,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - run: npm i -g vite
-      - run: vite dev
+      - run: vite dev --host
       
