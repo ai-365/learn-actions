@@ -15,3 +15,9 @@ jobs:
       - run: |
           node -v 
           npm -v
+  job2:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: npm i -g vitepress
+      - run: vitepress dev
+      
